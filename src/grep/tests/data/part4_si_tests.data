@@ -1,0 +1,36 @@
+-is "qwerty" tests/files/1.file
+-is "qwerty" tests/files/1.file tests/files/gggg.file
+-is "qwerty" tests/files/gggg.file
+-is "qwerty" tests/files/1.file 
+-is "qwerty" tests/files/1.file tests/files/gggg.file
+-is "qwerty" tests/files/gggg.file
+-is "qwerty" tests/files/1.file
+-is "qwerty" tests/files/1.file tests/files/gggg.file
+-is "qwerty" tests/files/gggg.file
+-is "qwerty" tests/files/1.file
+-is "qwerty" tests/files/1.file tests/files/gggg.file
+-is "qwerty" tests/files/gggg.file
+-is "WITH" tests/files/1.file
+-is "WITH" tests/files/1.file tests/files/gggg.file
+-is "WITH" tests/files/gggg.file
+-is "WITH" tests/files/1.file 
+-is "WITH" tests/files/1.file tests/files/gggg.file
+-is "WITH" tests/files/gggg.file
+-is "WITH" tests/files/1.file
+-is "WITH" tests/files/1.file tests/files/gggg.file
+-is "WITH" tests/files/gggg.file
+-is "WITH" tests/files/1.file
+-is "WITH" tests/files/1.file tests/files/gggg.file
+-is "WITH" tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/1.file
+-is "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/1.file 
+-is "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/1.file
+-is "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/1.file
+-is "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-is "[a-z][a-z]" tests/files/gggg.file

@@ -1,0 +1,132 @@
+-v tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/1.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/empty.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file -f tests/patterns/1.ptrn
+-v tests/files/2.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/1.file tests/files/empty.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/2.file tests/files/empty.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/empty.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/empty.file -f tests/patterns/1.ptrn
+-v tests/files/2.file tests/files/1.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/2.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/1.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/man_grep.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/man_grep.file tests/files/3.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/empty.file tests/files/man_grep.file tests/files/2.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/1.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -f tests/patterns/1.ptrn
+-v tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/1.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -f tests/patterns/1.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/1.ptrn
+-v tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/1.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/empty.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file -f tests/patterns/2.ptrn
+-v tests/files/2.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/1.file tests/files/empty.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/2.file tests/files/empty.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/empty.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/empty.file -f tests/patterns/2.ptrn
+-v tests/files/2.file tests/files/1.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/2.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/1.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/man_grep.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/man_grep.file tests/files/3.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/empty.file tests/files/man_grep.file tests/files/2.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/2.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -f tests/patterns/2.ptrn
+-v tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/2.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -f tests/patterns/2.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/2.ptrn
+-v tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/1.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/empty.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file -f tests/patterns/3.ptrn
+-v tests/files/2.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/1.file tests/files/empty.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/2.file tests/files/empty.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/empty.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/empty.file -f tests/patterns/3.ptrn
+-v tests/files/2.file tests/files/1.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/2.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/1.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/man_grep.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/man_grep.file tests/files/3.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/empty.file tests/files/man_grep.file tests/files/2.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/3.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -f tests/patterns/3.ptrn
+-v tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/3.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -f tests/patterns/3.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/3.ptrn
+-v tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/empty.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file -f tests/patterns/4.ptrn
+-v tests/files/2.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/1.file tests/files/empty.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/2.file tests/files/empty.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/empty.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/empty.file -f tests/patterns/4.ptrn
+-v tests/files/2.file tests/files/1.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/2.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/1.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/empty.file tests/files/1.file tests/files/man_grep.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/man_grep.file tests/files/3.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/empty.file tests/files/man_grep.file tests/files/2.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/4.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -f tests/patterns/4.ptrn
+-v tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -f tests/patterns/4.ptrn
+-v tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -f tests/patterns/4.ptrn
+-v tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -f tests/patterns/4.ptrn

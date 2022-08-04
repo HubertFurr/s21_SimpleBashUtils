@@ -1,0 +1,36 @@
+end of file
+the end of file
+use '\t' for tab in string
+	string with tab
+\	\	
+\	 \	
+\	\	 
+\	 \	 
+\t
+\\t
+\\\t
+\\\\t
+\t \t
+\t \t 
+\\t \\t
+\\t \\t 
+\\\t \\\t
+\\\t \\\t 
+\\\\t \\\\t
+\\\\t \\\\t 
+\n
+\\n
+\\\n
+\\\\n
+\n \n
+\n \n 
+\\n \\n
+\\n \\n 
+\\\n \\\n
+\\\n \\\n 
+\\\\n \\\\n
+\\\\n \\\\n 
+
+\
+ \
+ 

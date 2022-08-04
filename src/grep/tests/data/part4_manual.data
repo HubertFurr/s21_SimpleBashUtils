@@ -1,0 +1,16 @@
+fff tests/files/1.file tests/files/1.file -e 20 -f tests/patterns/1.ptrn tests/files/1.file -e number -f tests/patterns/2.ptrn -f tests/patterns/3.ptrn
+-o tests/files/1.file -f tests/patterns/2.ptrn
+tests/files/1.file -f tests/patterns/2.ptrn
+#-o tests/files/1.file -f tests/patterns/2.ptrn -e "" Неожиданное поведение на linux, исправлять нецелесообразно
+tests/files/1.file -f tests/patterns/2.ptrn -e ""
+tests/files/1.file -e "" -o
+tests/files/1.file -e ""
+67144 tests/files/big.file -oc
+67144 tests/files/big.file -ov
+35436378  tests/files/big.file -oc
+35436378  tests/files/big.file -ov
+"^$" tests/files/big.file -oc
+"^$" tests/files/big.file -ov
+-e "^$" tests/files/big.file -o -e "12345"
+-e "^$" tests/files/big.file -o -e "12345" -e "^$"
+-e "^$" tests/files/big.file -o -e "12345" -e "^$" -e "^$"

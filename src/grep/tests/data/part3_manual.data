@@ -1,0 +1,40 @@
+fff tests/files/1.file -f tests/patterns/1.ptrn
+fff tests/files/1.file tests/files/1.file tests/files/1.file -f tests/patterns tests/files
+ab tests/files/1.file tests/files/1.file tests/files/1.file -f tests/patterns tests/files
+fff tests/files/1.file -g -f tests/patterns tests/files
+tests/files/1.file -f tests/patterns/1.ptrn
+tests/files/1.file -f tests/patterns/2.ptrn
+tests/files/1.file -f tests/patterns/3.ptrn
+tests/files/1.file -f tests/patterns/1.ptrn -f tests/patterns/2.ptrn
+tests/files/1.file -f tests/patterns/1.ptrn -f tests/patterns/2.ptrn -f tests/patterns/3.ptrn
+tests/files/1.file -e "" -o
+tests/files/1.file -e "2020" -o
+tests/files/1.file -e "cat" -o
+tests/files/1.file -e "cat" -o -e "cat" -e "cat" -e ""c
+tests/files/1.file -e ""c -e "cat" -o -e "cat" -e "cat"
+tests/files/1.file -e "-[A-Z]" -o
+tests/files/1.file -e "-[A-Z]"  -e "\-[a-z]\{1\}[^a-z]" -o
+tests/files/1.file -e "GNU" -e "coreutils" -e "GNU coreutils" -e "core" -e "reut" -e "coreutils" -e "utils" -o
+tests/files/1.file -e "utils" -e "reut" -e "core" -e "coreutils" -e "GNU" -e "GNU coreutils" -e "coreutils" -o
+tests/files/1.file -e "GNU" -e "GNU coreutils" -o
+tests/files/1.file -e "GNU coreutils" -e "GNU" -o
+tests/files/1.file -e "-[a-z]" -o
+tests/files/1.file -e "-[a-z][a-z]" -o
+-e aboba -e ab -e a tests/files/aboba.txt -o
+-e aboba -e ab -e a tests/files/aboba.txt -o -e tttt
+-e aboba -e a tests/files/aboba2.txt -o
+-e aboba -e a -e app tests/files/aboba2.txt -o
+tests/files/void.txt -f tests/files/void.txt -o
+tests/files/3.file -e "-[a-z][a-z]" -e "-[a-z][A-Z]" -e "-[a-z]\{2\}" -o
+ -o "Copyright ." tests/files/1.file
+tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn
+tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn -c
+tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn -f tests/patterns/2.ptrn
+tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn -f tests/patterns/2.ptrn -c
+-v tests/files/1.file -f tests/patterns/4.ptrn -c
+-v tests/files/1.file tests/files/2.file -f tests/patterns/4.ptrn -c
+-v tests/files/1.file -f tests/patterns/4.ptrn -c -l
+-v tests/files/1.file tests/files/2.file -f tests/patterns/4.ptrn -c -l
+67144 tests/files/big.file -o
+35436378  tests/files/big.file -o
+"^$" tests/files/big.file -o

@@ -1,0 +1,540 @@
+-j -n ./test_files/2.file ./test_files/1.file ./test_files/2.file -b ./test_files/2.file
+-n ./test_files/2.file ./test_files/1.file ./test_files/2.file -b ./test_files/2.file
+./../cat
+./../cat ./test_files/1.file
+./../cat ./test_files/1.file ./test_files/2.file
+./test_files/1.file ./../cat ./test_files/1.file
+./test_files/1.file
+./test_files/2.file
+./test_files/1.file ./test_files/2.file
+./test_files/2.file ./test_files/2.file ./test_files/2.file
+./test_files/1.file ./test_files/1.file ./test_files/1.file
+./test_files/empty.file
+./test_files/empty.file ./test_files/empty_lines.file
+./test_files/empty_lines.file
+./test_files/empty.file ./test_files/2.file ./test_files/empty.file ./test_files/2.file
+./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file
+./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+./test_files/v255.file
+./test_files/v255_1.file
+./test_files/v255_2.file
+./test_files/eof.file
+./test_files/eofs.file
+./test_files/random.file
+./test_files/4.file
+./test_files/nr.file
+./test_files/nulls.file
+./test_files/nulls2.file
+-n ./test_files/empty.file
+-n ./test_files/empty_lines.file
+-n ./test_files/empty.file ./test_files/empty_lines.file
+-n ./test_files/empty_lines.file ./test_files/empty.file
+-n ./test_files/2.file ./test_files/empty.file
+-n ./test_files/empty.file ./test_files/2.file
+-n ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-n ./test_files/2.file ./test_files/empty_lines.file
+-n ./test_files/empty_lines.file ./test_files/2.file
+-n ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-n ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-n ./test_files/v255.file
+-n ./test_files/v255_1.file
+-n ./test_files/v255_2.file
+-n ./test_files/eof.file
+-n ./test_files/eofs.file
+-n ./test_files/random.file
+-n ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-n ./test_files/1.file
+-b ./test_files/empty.file
+-b ./test_files/empty_lines.file
+-b ./test_files/empty_lines.file ./test_files/empty.file
+-b ./test_files/empty.file ./test_files/empty_lines.file
+-b ./test_files/empty_lines.file ./test_files/empty.file
+-b ./test_files/2.file ./test_files/empty.file
+-b ./test_files/empty.file ./test_files/2.file
+-b ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-b ./test_files/2.file ./test_files/empty_lines.file
+-b ./test_files/empty_lines.file ./test_files/2.file
+-b ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-b ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-b ./test_files/v255.file
+-b ./test_files/v255_1.file
+-b ./test_files/v255_2.file
+-b ./test_files/eof.file
+-b ./test_files/eofs.file
+-b ./test_files/random.file
+-b ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-b ./test_files/1.file
+-b -n ./test_files/2.file ./test_files/1.file ./test_files/2.file ./test_files/2.file
+-bn ./test_files/2.file ./test_files/1.file ./test_files/2.file ./test_files/2.file
+-nb ./test_files/2.file ./test_files/1.file ./test_files/2.file ./test_files/2.file
+-v ./test_files/empty.file
+-v ./test_files/empty_lines.file
+-v ./test_files/empty_lines.file ./test_files/empty.file
+-v ./test_files/empty.file ./test_files/empty_lines.file
+-v ./test_files/empty_lines.file ./test_files/empty.file
+-v ./test_files/2.file ./test_files/empty.file
+-v ./test_files/empty.file ./test_files/2.file
+-v ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-v ./test_files/2.file ./test_files/empty_lines.file
+-v ./test_files/empty_lines.file ./test_files/2.file
+-v ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-v ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-v ./test_files/v255.file
+-v ./test_files/v255_1.file
+-v ./test_files/v255_2.file
+-v ./test_files/eof.file
+-v ./test_files/eofs.file
+-v ./test_files/random.file
+-v ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-v ./test_files/1.file
+-vb ./test_files/empty.file
+-vb ./test_files/empty_lines.file
+-vb ./test_files/empty_lines.file ./test_files/empty.file
+-vb ./test_files/empty.file ./test_files/empty_lines.file
+-vb ./test_files/empty_lines.file ./test_files/empty.file
+-vb ./test_files/2.file ./test_files/empty.file
+-vb ./test_files/empty.file ./test_files/2.file
+-vb ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-vb ./test_files/2.file ./test_files/empty_lines.file
+-vb ./test_files/empty_lines.file ./test_files/2.file
+-vb ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-vb ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-vb ./test_files/v255.file
+-vb ./test_files/v255_1.file
+-vb ./test_files/v255_2.file
+-vb ./test_files/eof.file
+-vb ./test_files/eofs.file
+-vb ./test_files/random.file
+-vb ./test_files/v255.file ./test_files/v255_1.file
+-vb ./test_files/v255.file ./test_files/v255_1.file ./test_files/eof.file ./test_files/eofs.file
+-vb ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-vb ./test_files/1.file
+-vn ./test_files/empty.file
+-vn ./test_files/empty_lines.file
+-vn ./test_files/empty_lines.file ./test_files/empty.file
+-vn ./test_files/empty.file ./test_files/empty_lines.file
+-vn ./test_files/empty_lines.file ./test_files/empty.file
+-vn ./test_files/2.file ./test_files/empty.file
+-vn ./test_files/empty.file ./test_files/2.file
+-vn ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-vn ./test_files/2.file ./test_files/empty_lines.file
+-vn ./test_files/empty_lines.file ./test_files/2.file
+-vn ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-vn ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-vn ./test_files/v255.file
+-vn ./test_files/v255_1.file
+-vn ./test_files/v255_2.file
+-vn ./test_files/eof.file
+-vn ./test_files/eofs.file
+-vn ./test_files/random.file
+-vn ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-vn ./test_files/1.file
+-vnb ./test_files/empty.file
+-vnb ./test_files/empty_lines.file
+-vnb ./test_files/empty_lines.file ./test_files/empty.file
+-vnb ./test_files/empty.file ./test_files/empty_lines.file
+-vnb ./test_files/empty_lines.file ./test_files/empty.file
+-vnb ./test_files/2.file ./test_files/empty.file
+-vnb ./test_files/empty.file ./test_files/2.file
+-vnb ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-vnb ./test_files/2.file ./test_files/empty_lines.file
+-vnb ./test_files/empty_lines.file ./test_files/2.file
+-vnb ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-vnb ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-vnb ./test_files/v255.file
+-vnb ./test_files/v255_1.file
+-vnb ./test_files/v255_2.file
+-vnb ./test_files/eof.file
+-vnb ./test_files/eofs.file
+-vnb ./test_files/random.file
+-vnb ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-vnb ./test_files/1.file
+-e ./test_files/empty.file
+-e ./test_files/empty_lines.file
+-e ./test_files/empty_lines.file ./test_files/empty.file
+-e ./test_files/empty.file ./test_files/empty_lines.file
+-e ./test_files/empty_lines.file ./test_files/empty.file
+-e ./test_files/2.file ./test_files/empty.file
+-e ./test_files/empty.file ./test_files/2.file
+-e ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-e ./test_files/2.file ./test_files/empty_lines.file
+-e ./test_files/empty_lines.file ./test_files/2.file
+-e ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-e ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-e ./test_files/v255.file
+-e ./test_files/v255_1.file
+-e ./test_files/v255_2.file
+-e ./test_files/eof.file
+-e ./test_files/eofs.file
+-e ./test_files/random.file
+-e ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-e ./test_files/1.file
+-en ./test_files/empty.file
+-en ./test_files/empty_lines.file
+-en ./test_files/empty_lines.file ./test_files/empty.file
+-en ./test_files/empty.file ./test_files/empty_lines.file
+-en ./test_files/empty_lines.file ./test_files/empty.file
+-en ./test_files/2.file ./test_files/empty.file
+-en ./test_files/empty.file ./test_files/2.file
+-en ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-en ./test_files/2.file ./test_files/empty_lines.file
+-en ./test_files/empty_lines.file ./test_files/2.file
+-en ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-en ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-en ./test_files/v255.file
+-en ./test_files/v255_1.file
+-en ./test_files/v255_2.file
+-en ./test_files/eof.file
+-en ./test_files/eofs.file
+-en ./test_files/random.file
+-en ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-en ./test_files/1.file
+-evnb ./test_files/empty.file
+-evnb ./test_files/empty_lines.file
+-evnb ./test_files/empty_lines.file ./test_files/empty.file
+-evnb ./test_files/empty.file ./test_files/empty_lines.file
+-evnb ./test_files/empty_lines.file ./test_files/empty.file
+-evnb ./test_files/2.file ./test_files/empty.file
+-evnb ./test_files/empty.file ./test_files/2.file
+-evnb ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-evnb ./test_files/2.file ./test_files/empty_lines.file
+-evnb ./test_files/empty_lines.file ./test_files/2.file
+-evnb ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-evnb ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-evnb ./test_files/v255.file
+-evnb ./test_files/v255_1.file
+-evnb ./test_files/v255_2.file
+-evnb ./test_files/eof.file
+-evnb ./test_files/eofs.file
+-evnb ./test_files/random.file
+-evnb ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-evnb ./test_files/1.file
+-t ./test_files/empty.file
+-t ./test_files/empty_lines.file
+-t ./test_files/empty_lines.file ./test_files/empty.file
+-t ./test_files/empty.file ./test_files/empty_lines.file
+-t ./test_files/empty_lines.file ./test_files/empty.file
+-t ./test_files/2.file ./test_files/empty.file
+-t ./test_files/empty.file ./test_files/2.file
+-t ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-t ./test_files/2.file ./test_files/empty_lines.file
+-t ./test_files/empty_lines.file ./test_files/2.file
+-t ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-t ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-t ./test_files/v255.file
+-t ./test_files/v255_1.file
+-t ./test_files/v255_2.file
+-t ./test_files/eof.file
+-t ./test_files/eofs.file
+-t ./test_files/random.file
+-t ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-t ./test_files/1.file
+-nt ./test_files/empty.file
+-nt ./test_files/empty_lines.file
+-nt ./test_files/empty_lines.file ./test_files/empty.file
+-nt ./test_files/empty.file ./test_files/empty_lines.file
+-nt ./test_files/empty_lines.file ./test_files/empty.file
+-nt ./test_files/2.file ./test_files/empty.file
+-nt ./test_files/empty.file ./test_files/2.file
+-nt ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-nt ./test_files/2.file ./test_files/empty_lines.file
+-nt ./test_files/empty_lines.file ./test_files/2.file
+-nt ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-nt ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-nt ./test_files/v255.file
+-nt ./test_files/v255_1.file
+-nt ./test_files/v255_2.file
+-nt ./test_files/eof.file
+-nt ./test_files/eofs.file
+-nt ./test_files/random.file
+-nt ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-nt ./test_files/1.file
+-tvnb ./test_files/empty.file
+-tvnb ./test_files/empty_lines.file
+-tvnb ./test_files/empty_lines.file ./test_files/empty.file
+-tvnb ./test_files/empty.file ./test_files/empty_lines.file
+-tvnb ./test_files/empty_lines.file ./test_files/empty.file
+-tvnb ./test_files/2.file ./test_files/empty.file
+-tvnb ./test_files/empty.file ./test_files/2.file
+-tvnb ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-tvnb ./test_files/2.file ./test_files/empty_lines.file
+-tvnb ./test_files/empty_lines.file ./test_files/2.file
+-tvnb ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-tvnb ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-tvnb ./test_files/v255.file
+-tvnb ./test_files/v255_1.file
+-tvnb ./test_files/v255_2.file
+-tvnb ./test_files/eof.file
+-tvnb ./test_files/eofs.file
+-tvnb ./test_files/random.file
+-tvnb ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-tvnb ./test_files/1.file
+-bentv ./test_files/empty.file
+-bentv ./test_files/empty_lines.file
+-bentv ./test_files/empty_lines.file ./test_files/empty.file
+-bentv ./test_files/empty.file ./test_files/empty_lines.file
+-bentv ./test_files/empty_lines.file ./test_files/empty.file
+-bentv ./test_files/2.file ./test_files/empty.file
+-bentv ./test_files/empty.file ./test_files/2.file
+-bentv ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-bentv ./test_files/2.file ./test_files/empty_lines.file
+-bentv ./test_files/empty_lines.file ./test_files/2.file
+-bentv ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-bentv ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-bentv ./test_files/v255.file
+-bentv ./test_files/v255_1.file
+-bentv ./test_files/v255_2.file
+-bentv ./test_files/eof.file
+-bentv ./test_files/eofs.file
+-bentv ./test_files/random.file
+-bentv ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-bentv ./test_files/1.file
+-bentv ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+-b -e test_files/empty.file test_files/nulls2.file
+-b -e test_files/nulls.file test_files/empty.file test_files/nulls2.file
+-b -e test_files/nulls.file test_files/empty.file test_files/empty.file test_files/empty.file test_files/nulls2.file
+-b -e test_files/5.file test_files/nulls2.file
+-b -e test_files/5.file test_files/empty.file test_files/nulls2.file
+-b -e test_files/5.file test_files/empty.file test_files/empty.file test_files/empty.file test_files/nulls2.file
+-b -e test_files/nr.file test_files/empty_lines.file test_files/empty_lines.file test_files/empty_lines.file test_files/nulls.file test_files/empty.file test_files/nulls2.file test_files/nr.file
+-b -t test_files/v255.file test_files/eof.file test_files/eof.file test_files/1.file test_files/v255_2.file test_files/eof.file test_files/empty.file test_files/v255_2.file test_files/eof.file test_files/random.file test_files/empty_lines.file test_files/nulls2.file
+-n -e test_files/nulls.file test_files/v255_2.file test_files/2.file test_files/random.file test_files/v255.file test_files/empty.file test_files/empty_lines.file test_files/eof.file test_files/nulls2.file test_files/eofs.file test_files/nulls.file
+-t -n test_files/v255.file test_files/empty.file test_files/v255.file
+-b -e -e test_files/nulls.file test_files/1.file test_files/empty.file test_files/nulls2.file test_files/4.file test_files/2.file test_files/v255_1.file test_files/eofs.file test_files/v255_2.file test_files/4.file test_files/empty.file test_files/v255.file test_files/empty_lines.file
+-e -t -b test_files/empty_lines.file test_files/eof.file test_files/eof.file test_files/empty.file test_files/eofs.file test_files/random.file test_files/random.file test_files/eofs.file test_files/eofs.file test_files/nr.file test_files/1.file test_files/v255.file
+-e -n -n test_files/1.file test_files/nulls2.file test_files/4.file test_files/empty.file test_files/random.file test_files/random.file
+-n -t -n test_files/eof.file test_files/empty.file test_files/v255.file test_files/4.file test_files/nr.file test_files/2.file test_files/random.file test_files/nr.file test_files/eofs.file test_files/1.file test_files/random.file test_files/empty_lines.file test_files/eofs.file
+-t -t -n test_files/2.file test_files/nulls.file test_files/nr.file test_files/empty_lines.file test_files/v255_2.file test_files/empty_lines.file test_files/v255_1.file test_files/eof.file test_files/v255_2.file test_files/eof.file test_files/2.file test_files/nulls.file
+-e -b test_files/2.file test_files/4.file test_files/v255_1.file test_files/nulls.file test_files/v255_2.file test_files/
+v255_1.file test_files/1.file
+./s21_cat
+-n ./s21_cat
+-b ./s21_cat
+-v ./s21_cat
+-e ./s21_cat
+--number-nonblank ./test_files/empty.file
+--number-nonblank ./test_files/empty_lines.file
+--number-nonblank ./test_files/empty_lines.file ./test_files/empty.file
+--number-nonblank ./test_files/empty.file ./test_files/empty_lines.file
+--number-nonblank ./test_files/empty_lines.file ./test_files/empty.file
+--number-nonblank ./test_files/2.file ./test_files/empty.file
+--number-nonblank ./test_files/empty.file ./test_files/2.file
+--number-nonblank ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+--number-nonblank ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+--number-nonblank ./test_files/2.file ./test_files/empty_lines.file
+--number-nonblank ./test_files/empty_lines.file ./test_files/2.file
+--number-nonblank ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+--number-nonblank ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+--number-nonblank ./test_files/v255.file
+--number-nonblank ./test_files/v255_1.file
+--number-nonblank ./test_files/v255_2.file
+--number-nonblank ./test_files/eof.file
+--number-nonblank ./test_files/eofs.file
+--number-nonblank ./test_files/random.file
+--number-nonblank ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+--number-nonblank ./test_files/1.file
+--number-nonblank ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+--number ./test_files/empty.file
+--number ./test_files/empty_lines.file
+--number ./test_files/empty_lines.file ./test_files/empty.file
+--number ./test_files/empty.file ./test_files/empty_lines.file
+--number ./test_files/empty_lines.file ./test_files/empty.file
+--number ./test_files/2.file ./test_files/empty.file
+--number ./test_files/empty.file ./test_files/2.file
+--number ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+--number ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+--number ./test_files/2.file ./test_files/empty_lines.file
+--number ./test_files/empty_lines.file ./test_files/2.file
+--number ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+--number ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+--number ./test_files/v255.file
+--number ./test_files/v255_1.file
+--number ./test_files/v255_2.file
+--number ./test_files/eof.file
+--number ./test_files/eofs.file
+--number ./test_files/random.file
+--number ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+--number ./test_files/1.file
+--number ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+#Big files
+-n ./test_files/3.file
+-b ./test_files/3.file
+-bn ./test_files/3.file
+-nb ./test_files/3.file
+#mac only
+-besnt ./test_files/3.file
+-s ./test_files/3.file
+-s ./test_files/empty.file
+-s ./test_files/empty_lines.file
+-s ./test_files/empty_lines.file ./test_files/empty.file
+-s ./test_files/empty.file ./test_files/empty_lines.file
+-s ./test_files/empty_lines.file ./test_files/empty.file
+-s ./test_files/2.file ./test_files/empty.file
+-s ./test_files/empty.file ./test_files/2.file
+-s ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+-s ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-s ./test_files/2.file ./test_files/empty_lines.file
+-s ./test_files/empty_lines.file ./test_files/2.file
+-s ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-s ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-s ./test_files/v255.file
+-s ./test_files/v255_1.file
+-s ./test_files/v255_2.file
+-s ./test_files/eof.file
+-s ./test_files/eofs.file
+-s ./test_files/random.file
+-s ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-s ./test_files/1.file
+-s ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+-sn ./test_files/empty.file
+-sn ./test_files/empty_lines.file
+-sn ./test_files/empty_lines.file ./test_files/empty.file
+-sn ./test_files/empty.file ./test_files/empty_lines.file
+-sn ./test_files/empty_lines.file ./test_files/empty.file
+-sn ./test_files/2.file ./test_files/empty.file
+-sn ./test_files/empty.file ./test_files/2.file
+-sn ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+-sn ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-sn ./test_files/2.file ./test_files/empty_lines.file
+-sn ./test_files/empty_lines.file ./test_files/2.file
+-sn ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-sn ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-sn ./test_files/v255.file
+-sn ./test_files/v255_1.file
+-sn ./test_files/v255_2.file
+-sn ./test_files/eof.file
+-sn ./test_files/eofs.file
+-sn ./test_files/random.file
+-sn ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-sn ./test_files/1.file
+-sn ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+-besntv ./test_files/empty.file
+-besntv ./test_files/empty_lines.file
+-besntv ./test_files/empty_lines.file ./test_files/empty.file
+-besntv ./test_files/empty.file ./test_files/empty_lines.file
+-besntv ./test_files/empty_lines.file ./test_files/empty.file
+-besntv ./test_files/2.file ./test_files/empty.file
+-besntv ./test_files/empty.file ./test_files/2.file
+-besntv ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+-besntv ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-besntv ./test_files/2.file ./test_files/empty_lines.file
+-besntv ./test_files/empty_lines.file ./test_files/2.file
+-besntv ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-besntv ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-besntv ./test_files/v255.file
+-besntv ./test_files/v255_1.file
+-besntv ./test_files/v255_2.file
+-besntv ./test_files/eof.file
+-besntv ./test_files/eofs.file
+-besntv ./test_files/random.file
+-besntv ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-besntv ./test_files/1.file
+-besntv ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+--squeeze-blank ./test_files/empty.file
+--squeeze-blank ./test_files/empty_lines.file
+--squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--squeeze-blank ./test_files/empty.file ./test_files/empty_lines.file
+--squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--squeeze-blank ./test_files/2.file ./test_files/empty.file
+--squeeze-blank ./test_files/empty.file ./test_files/2.file
+--squeeze-blank ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+--squeeze-blank ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+--squeeze-blank ./test_files/2.file ./test_files/empty_lines.file
+--squeeze-blank ./test_files/empty_lines.file ./test_files/2.file
+--squeeze-blank ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+--squeeze-blank ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+--squeeze-blank ./test_files/v255.file
+--squeeze-blank ./test_files/v255_1.file
+--squeeze-blank ./test_files/v255_2.file
+--squeeze-blank ./test_files/eof.file
+--squeeze-blank ./test_files/eofs.file
+--squeeze-blank ./test_files/random.file
+--squeeze-blank ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+--squeeze-blank ./test_files/1.file
+--squeeze-blank ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+--number-nonblank --squeeze-blank ./test_files/empty.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--number-nonblank --squeeze-blank ./test_files/empty.file ./test_files/empty_lines.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--number-nonblank --squeeze-blank ./test_files/2.file ./test_files/empty.file
+--number-nonblank --squeeze-blank ./test_files/empty.file ./test_files/2.file
+--number-nonblank --squeeze-blank ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+--number-nonblank --squeeze-blank ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+--number-nonblank --squeeze-blank ./test_files/2.file ./test_files/empty_lines.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file ./test_files/2.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+--number-nonblank --squeeze-blank ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+--number-nonblank --squeeze-blank ./test_files/v255.file
+--number-nonblank --squeeze-blank ./test_files/v255_1.file
+--number-nonblank --squeeze-blank ./test_files/v255_2.file
+--number-nonblank --squeeze-blank ./test_files/eof.file
+--number-nonblank --squeeze-blank ./test_files/eofs.file
+--number-nonblank --squeeze-blank ./test_files/random.file
+--number-nonblank --squeeze-blank ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+--number-nonblank --squeeze-blank ./test_files/1.file
+--number-nonblank --squeeze-blank ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+--number --squeeze-blank ./test_files/empty.file
+--number --squeeze-blank ./test_files/empty_lines.file
+--number --squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--number --squeeze-blank ./test_files/empty.file ./test_files/empty_lines.file
+--number --squeeze-blank ./test_files/empty_lines.file ./test_files/empty.file
+--number --squeeze-blank ./test_files/2.file ./test_files/empty.file
+--number --squeeze-blank ./test_files/empty.file ./test_files/2.file
+--number --squeeze-blank ./test_files/1.file ./test_files/empty.file ./test_files/1.file
+--number --squeeze-blank ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+--number --squeeze-blank ./test_files/2.file ./test_files/empty_lines.file
+--number --squeeze-blank ./test_files/empty_lines.file ./test_files/2.file
+--number --squeeze-blank ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+--number --squeeze-blank ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+--number --squeeze-blank ./test_files/v255.file
+--number --squeeze-blank ./test_files/v255_1.file
+--number --squeeze-blank ./test_files/v255_2.file
+--number --squeeze-blank ./test_files/eof.file
+--number --squeeze-blank ./test_files/eofs.file
+--number --squeeze-blank ./test_files/random.file
+--number --squeeze-blank ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+--number --squeeze-blank ./test_files/1.file
+--number --squeeze-blank ./test_files/empty_lines.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file ./test_files/2.file ./test_files/2.file
+
+#no tests
+-E ./test_files/empty.file
+-E ./test_files/empty_lines.file
+-E ./test_files/empty_lines.file ./test_files/empty.file
+-E ./test_files/empty.file ./test_files/empty_lines.file
+-E ./test_files/empty_lines.file ./test_files/empty.file
+-E ./test_files/2.file ./test_files/empty.file
+-E ./test_files/empty.file ./test_files/2.file
+-E ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-E ./test_files/2.file ./test_files/empty_lines.file
+-E ./test_files/empty_lines.file ./test_files/2.file
+-E ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-E ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-E ./test_files/v255.file
+-E ./test_files/v255_1.file
+-E ./test_files/v255_2.file
+-E ./test_files/eof.file
+-E ./test_files/eofs.file
+-E ./test_files/random.file
+-E ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-E ./test_files/1.file
+-T ./test_files/empty.file
+-T ./test_files/empty_lines.file
+-T ./test_files/empty_lines.file ./test_files/empty.file
+-T ./test_files/empty.file ./test_files/empty_lines.file
+-T ./test_files/empty_lines.file ./test_files/empty.file
+-T ./test_files/2.file ./test_files/empty.file
+-T ./test_files/empty.file ./test_files/2.file
+-T ./test_files/empty.file ./test_files/2.file ./test_files/empty.file
+-T ./test_files/2.file ./test_files/empty_lines.file
+-T ./test_files/empty_lines.file ./test_files/2.file
+-T ./test_files/empty_lines.file ./test_files/2.file ./test_files/empty_lines.file
+-T ./test_files/empty.file ./test_files/1.file ./test_files/empty_lines.file ./test_files/1.file ./test_files/empty_lines.file
+-T ./test_files/v255.file
+-T ./test_files/v255_1.file
+-T ./test_files/v255_2.file
+-T ./test_files/eof.file
+-T ./test_files/eofs.file
+-T ./test_files/random.file
+-T ./test_files/v255.file ./test_files/v255_1.file ./test_files/v255_2.file ./test_files/eof.file ./test_files/eofs.file ./test_files/random.file
+-T ./test_files/1.file

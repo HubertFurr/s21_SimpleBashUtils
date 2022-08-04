@@ -1,0 +1,16 @@
+CAT(1)				User Commands			CAT(1)
+NAME			top
+	cat - concatenate files and print on the standard output
+SYNOPSIS		top
+	cat [OPTION]... [FILE]...
+DESCRIPTION		top
+	Concatenate FILE(s) to standard output.
+
+	With no FILE, or when FILE is -, read standard input.
+	-aA, --show-all -aB 
+	-aC, --saow-aal --sbow-abl --scow-acl --sdow-adl --seow-ael
+		equivalent to -vET
+	-aD, --sd-sd -aE  --se-se
+
+	-b, --number-nonblank
+		number nonempty output lines, overrides -n

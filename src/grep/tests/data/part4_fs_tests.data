@@ -1,0 +1,15 @@
+-s tests/files/1.file -f tests/patterns/1.ptrn
+-s tests/files/1.file tests/files/gggg.file -f tests/patterns/1.ptrn
+-s tests/files/gggg.file -f tests/patterns/1.ptrn
+-s tests/files/1.file -f tests/patterns/2.ptrn
+-s tests/files/1.file tests/files/gggg.file -f tests/patterns/2.ptrn
+-s tests/files/gggg.file -f tests/patterns/2.ptrn
+-s tests/files/1.file -f tests/patterns/3.ptrn
+-s tests/files/1.file tests/files/gggg.file -f tests/patterns/3.ptrn
+-s tests/files/gggg.file -f tests/patterns/3.ptrn
+-s tests/files/1.file -f tests/patterns/4.ptrn
+-s tests/files/1.file tests/files/gggg.file -f tests/patterns/4.ptrn
+-s tests/files/gggg.file -f tests/patterns/4.ptrn
+-s tests/files/1.file -f tests/patterns/gggg.ptrn
+-s tests/files/1.file tests/files/gggg.file -f tests/patterns/gggg.ptrn
+-s tests/files/gggg.file -f tests/patterns/gggg.ptrn

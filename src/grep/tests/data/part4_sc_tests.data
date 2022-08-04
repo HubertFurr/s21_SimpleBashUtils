@@ -1,0 +1,36 @@
+-sc "qwerty" tests/files/1.file
+-sc "qwerty" tests/files/1.file tests/files/gggg.file
+-sc "qwerty" tests/files/gggg.file
+-sc "qwerty" tests/files/1.file 
+-sc "qwerty" tests/files/1.file tests/files/gggg.file
+-sc "qwerty" tests/files/gggg.file
+-sc "qwerty" tests/files/1.file
+-sc "qwerty" tests/files/1.file tests/files/gggg.file
+-sc "qwerty" tests/files/gggg.file
+-sc "qwerty" tests/files/1.file
+-sc "qwerty" tests/files/1.file tests/files/gggg.file
+-sc "qwerty" tests/files/gggg.file
+-sc "WITH" tests/files/1.file
+-sc "WITH" tests/files/1.file tests/files/gggg.file
+-sc "WITH" tests/files/gggg.file
+-sc "WITH" tests/files/1.file 
+-sc "WITH" tests/files/1.file tests/files/gggg.file
+-sc "WITH" tests/files/gggg.file
+-sc "WITH" tests/files/1.file
+-sc "WITH" tests/files/1.file tests/files/gggg.file
+-sc "WITH" tests/files/gggg.file
+-sc "WITH" tests/files/1.file
+-sc "WITH" tests/files/1.file tests/files/gggg.file
+-sc "WITH" tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/1.file
+-sc "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/1.file 
+-sc "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/1.file
+-sc "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/1.file
+-sc "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
+-sc "[a-z][a-z]" tests/files/gggg.file

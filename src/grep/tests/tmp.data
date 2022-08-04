@@ -1,0 +1,35 @@
+
+#All files combinations
+tests/files/1.file
+tests/files/1.file tests/files/1.file
+tests/files/2.file
+tests/files/3.file
+tests/files/3.file tests/files/3.file
+tests/files/empty.file
+tests/files/man_grep.file
+tests/files/2.file tests/files/1.file
+tests/files/3.file tests/files/1.file
+tests/files/1.file tests/files/empty.file
+tests/files/man_grep.file tests/files/1.file
+tests/files/3.file tests/files/2.file
+tests/files/2.file tests/files/empty.file
+tests/files/man_grep.file tests/files/2.file
+tests/files/empty.file tests/files/3.file
+tests/files/man_grep.file tests/files/3.file
+tests/files/man_grep.file tests/files/empty.file
+tests/files/2.file tests/files/1.file tests/files/3.file
+tests/files/empty.file tests/files/1.file tests/files/2.file
+tests/files/man_grep.file tests/files/2.file tests/files/1.file
+tests/files/1.file tests/files/empty.file tests/files/3.file
+tests/files/man_grep.file tests/files/1.file tests/files/3.file
+tests/files/empty.file tests/files/1.file tests/files/man_grep.file
+tests/files/3.file tests/files/empty.file tests/files/2.file
+tests/files/man_grep.file tests/files/3.file tests/files/2.file
+tests/files/empty.file tests/files/man_grep.file tests/files/2.file
+tests/files/3.file tests/files/empty.file tests/files/man_grep.file
+tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
+tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
+tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
+tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
+tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
+tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
