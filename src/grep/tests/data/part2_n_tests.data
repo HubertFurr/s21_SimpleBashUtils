@@ -64,138 +64,138 @@
 -n qwerty tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
 -n qwerty tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
 -n qwerty tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
--n ". " tests/files/1.file
--n ". " tests/files/1.file tests/files/1.file
--n ". " tests/files/2.file
--n ". " tests/files/3.file
--n ". " tests/files/3.file tests/files/3.file
--n ". " tests/files/empty.file
--n ". " tests/files/man_grep.file
--n ". " tests/files/2.file tests/files/1.file
--n ". " tests/files/3.file tests/files/1.file
--n ". " tests/files/1.file tests/files/empty.file
--n ". " tests/files/man_grep.file tests/files/1.file
--n ". " tests/files/3.file tests/files/2.file
--n ". " tests/files/2.file tests/files/empty.file
--n ". " tests/files/man_grep.file tests/files/2.file
--n ". " tests/files/empty.file tests/files/3.file
--n ". " tests/files/man_grep.file tests/files/3.file
--n ". " tests/files/man_grep.file tests/files/empty.file
--n ". " tests/files/2.file tests/files/1.file tests/files/3.file
--n ". " tests/files/empty.file tests/files/1.file tests/files/2.file
--n ". " tests/files/man_grep.file tests/files/2.file tests/files/1.file
--n ". " tests/files/1.file tests/files/empty.file tests/files/3.file
--n ". " tests/files/man_grep.file tests/files/1.file tests/files/3.file
--n ". " tests/files/empty.file tests/files/1.file tests/files/man_grep.file
--n ". " tests/files/3.file tests/files/empty.file tests/files/2.file
--n ". " tests/files/man_grep.file tests/files/3.file tests/files/2.file
--n ". " tests/files/empty.file tests/files/man_grep.file tests/files/2.file
--n ". " tests/files/3.file tests/files/empty.file tests/files/man_grep.file
--n ". " tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
--n ". " tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
--n ". " tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
--n ". " tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
--n ". " tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
--n ". " tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
--n "\. " tests/files/1.file
--n "\. " tests/files/1.file tests/files/1.file
--n "\. " tests/files/2.file
--n "\. " tests/files/3.file
--n "\. " tests/files/3.file tests/files/3.file
--n "\. " tests/files/empty.file
--n "\. " tests/files/man_grep.file
--n "\. " tests/files/2.file tests/files/1.file
--n "\. " tests/files/3.file tests/files/1.file
--n "\. " tests/files/1.file tests/files/empty.file
--n "\. " tests/files/man_grep.file tests/files/1.file
--n "\. " tests/files/3.file tests/files/2.file
--n "\. " tests/files/2.file tests/files/empty.file
--n "\. " tests/files/man_grep.file tests/files/2.file
--n "\. " tests/files/empty.file tests/files/3.file
--n "\. " tests/files/man_grep.file tests/files/3.file
--n "\. " tests/files/man_grep.file tests/files/empty.file
--n "\. " tests/files/2.file tests/files/1.file tests/files/3.file
--n "\. " tests/files/empty.file tests/files/1.file tests/files/2.file
--n "\. " tests/files/man_grep.file tests/files/2.file tests/files/1.file
--n "\. " tests/files/1.file tests/files/empty.file tests/files/3.file
--n "\. " tests/files/man_grep.file tests/files/1.file tests/files/3.file
--n "\. " tests/files/empty.file tests/files/1.file tests/files/man_grep.file
--n "\. " tests/files/3.file tests/files/empty.file tests/files/2.file
--n "\. " tests/files/man_grep.file tests/files/3.file tests/files/2.file
--n "\. " tests/files/empty.file tests/files/man_grep.file tests/files/2.file
--n "\. " tests/files/3.file tests/files/empty.file tests/files/man_grep.file
--n "\. " tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
--n "\. " tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
--n "\. " tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
--n "\. " tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
--n "\. " tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
--n "\. " tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
--n "[a-z]\{2\}" tests/files/1.file
--n "[a-z]\{2\}" tests/files/1.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/2.file
--n "[a-z]\{2\}" tests/files/3.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/empty.file
--n "[a-z]\{2\}" tests/files/man_grep.file
--n "[a-z]\{2\}" tests/files/2.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/1.file tests/files/empty.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/2.file tests/files/empty.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/empty.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/empty.file
--n "[a-z]\{2\}" tests/files/2.file tests/files/1.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/empty.file tests/files/1.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/2.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/1.file tests/files/empty.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/1.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/empty.file tests/files/1.file tests/files/man_grep.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/empty.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/man_grep.file tests/files/3.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/empty.file tests/files/man_grep.file tests/files/2.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/empty.file tests/files/man_grep.file
--n "[a-z]\{2\}" tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
--n "[a-z]\{2\}" tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
--n "[a-z]\{2\}" tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
--n "[a-z]\{2\}" tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
--n "[a-z]{2}" tests/files/1.file
--n "[a-z]{2}" tests/files/1.file tests/files/1.file
--n "[a-z]{2}" tests/files/2.file
--n "[a-z]{2}" tests/files/3.file
--n "[a-z]{2}" tests/files/3.file tests/files/3.file
--n "[a-z]{2}" tests/files/empty.file
--n "[a-z]{2}" tests/files/man_grep.file
--n "[a-z]{2}" tests/files/2.file tests/files/1.file
--n "[a-z]{2}" tests/files/3.file tests/files/1.file
--n "[a-z]{2}" tests/files/1.file tests/files/empty.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/1.file
--n "[a-z]{2}" tests/files/3.file tests/files/2.file
--n "[a-z]{2}" tests/files/2.file tests/files/empty.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/2.file
--n "[a-z]{2}" tests/files/empty.file tests/files/3.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/3.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/empty.file
--n "[a-z]{2}" tests/files/2.file tests/files/1.file tests/files/3.file
--n "[a-z]{2}" tests/files/empty.file tests/files/1.file tests/files/2.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/2.file tests/files/1.file
--n "[a-z]{2}" tests/files/1.file tests/files/empty.file tests/files/3.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/1.file tests/files/3.file
--n "[a-z]{2}" tests/files/empty.file tests/files/1.file tests/files/man_grep.file
--n "[a-z]{2}" tests/files/3.file tests/files/empty.file tests/files/2.file
--n "[a-z]{2}" tests/files/man_grep.file tests/files/3.file tests/files/2.file
--n "[a-z]{2}" tests/files/empty.file tests/files/man_grep.file tests/files/2.file
--n "[a-z]{2}" tests/files/3.file tests/files/empty.file tests/files/man_grep.file
--n "[a-z]{2}" tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
--n "[a-z]{2}" tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
--n "[a-z]{2}" tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
--n "[a-z]{2}" tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
--n "[a-z]{2}" tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
--n "[a-z]{2}" tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
+-n " S" tests/files/1.file
+-n " S" tests/files/1.file tests/files/1.file
+-n " S" tests/files/2.file
+-n " S" tests/files/3.file
+-n " S" tests/files/3.file tests/files/3.file
+-n " S" tests/files/empty.file
+-n " S" tests/files/man_grep.file
+-n " S" tests/files/2.file tests/files/1.file
+-n " S" tests/files/3.file tests/files/1.file
+-n " S" tests/files/1.file tests/files/empty.file
+-n " S" tests/files/man_grep.file tests/files/1.file
+-n " S" tests/files/3.file tests/files/2.file
+-n " S" tests/files/2.file tests/files/empty.file
+-n " S" tests/files/man_grep.file tests/files/2.file
+-n " S" tests/files/empty.file tests/files/3.file
+-n " S" tests/files/man_grep.file tests/files/3.file
+-n " S" tests/files/man_grep.file tests/files/empty.file
+-n " S" tests/files/2.file tests/files/1.file tests/files/3.file
+-n " S" tests/files/empty.file tests/files/1.file tests/files/2.file
+-n " S" tests/files/man_grep.file tests/files/2.file tests/files/1.file
+-n " S" tests/files/1.file tests/files/empty.file tests/files/3.file
+-n " S" tests/files/man_grep.file tests/files/1.file tests/files/3.file
+-n " S" tests/files/empty.file tests/files/1.file tests/files/man_grep.file
+-n " S" tests/files/3.file tests/files/empty.file tests/files/2.file
+-n " S" tests/files/man_grep.file tests/files/3.file tests/files/2.file
+-n " S" tests/files/empty.file tests/files/man_grep.file tests/files/2.file
+-n " S" tests/files/3.file tests/files/empty.file tests/files/man_grep.file
+-n " S" tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
+-n " S" tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
+-n " S" tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
+-n " S" tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
+-n " S" tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
+-n " S" tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
+-n "s " tests/files/1.file
+-n "s " tests/files/1.file tests/files/1.file
+-n "s " tests/files/2.file
+-n "s " tests/files/3.file
+-n "s " tests/files/3.file tests/files/3.file
+-n "s " tests/files/empty.file
+-n "s " tests/files/man_grep.file
+-n "s " tests/files/2.file tests/files/1.file
+-n "s " tests/files/3.file tests/files/1.file
+-n "s " tests/files/1.file tests/files/empty.file
+-n "s " tests/files/man_grep.file tests/files/1.file
+-n "s " tests/files/3.file tests/files/2.file
+-n "s " tests/files/2.file tests/files/empty.file
+-n "s " tests/files/man_grep.file tests/files/2.file
+-n "s " tests/files/empty.file tests/files/3.file
+-n "s " tests/files/man_grep.file tests/files/3.file
+-n "s " tests/files/man_grep.file tests/files/empty.file
+-n "s " tests/files/2.file tests/files/1.file tests/files/3.file
+-n "s " tests/files/empty.file tests/files/1.file tests/files/2.file
+-n "s " tests/files/man_grep.file tests/files/2.file tests/files/1.file
+-n "s " tests/files/1.file tests/files/empty.file tests/files/3.file
+-n "s " tests/files/man_grep.file tests/files/1.file tests/files/3.file
+-n "s " tests/files/empty.file tests/files/1.file tests/files/man_grep.file
+-n "s " tests/files/3.file tests/files/empty.file tests/files/2.file
+-n "s " tests/files/man_grep.file tests/files/3.file tests/files/2.file
+-n "s " tests/files/empty.file tests/files/man_grep.file tests/files/2.file
+-n "s " tests/files/3.file tests/files/empty.file tests/files/man_grep.file
+-n "s " tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
+-n "s " tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
+-n "s " tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
+-n "s " tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
+-n "s " tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
+-n "s " tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
+-n "no" tests/files/1.file
+-n "no" tests/files/1.file tests/files/1.file
+-n "no" tests/files/2.file
+-n "no" tests/files/3.file
+-n "no" tests/files/3.file tests/files/3.file
+-n "no" tests/files/empty.file
+-n "no" tests/files/man_grep.file
+-n "no" tests/files/2.file tests/files/1.file
+-n "no" tests/files/3.file tests/files/1.file
+-n "no" tests/files/1.file tests/files/empty.file
+-n "no" tests/files/man_grep.file tests/files/1.file
+-n "no" tests/files/3.file tests/files/2.file
+-n "no" tests/files/2.file tests/files/empty.file
+-n "no" tests/files/man_grep.file tests/files/2.file
+-n "no" tests/files/empty.file tests/files/3.file
+-n "no" tests/files/man_grep.file tests/files/3.file
+-n "no" tests/files/man_grep.file tests/files/empty.file
+-n "no" tests/files/2.file tests/files/1.file tests/files/3.file
+-n "no" tests/files/empty.file tests/files/1.file tests/files/2.file
+-n "no" tests/files/man_grep.file tests/files/2.file tests/files/1.file
+-n "no" tests/files/1.file tests/files/empty.file tests/files/3.file
+-n "no" tests/files/man_grep.file tests/files/1.file tests/files/3.file
+-n "no" tests/files/empty.file tests/files/1.file tests/files/man_grep.file
+-n "no" tests/files/3.file tests/files/empty.file tests/files/2.file
+-n "no" tests/files/man_grep.file tests/files/3.file tests/files/2.file
+-n "no" tests/files/empty.file tests/files/man_grep.file tests/files/2.file
+-n "no" tests/files/3.file tests/files/empty.file tests/files/man_grep.file
+-n "no" tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
+-n "no" tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
+-n "no" tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
+-n "no" tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
+-n "no" tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
+-n "no" tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
+-n "syn" tests/files/1.file
+-n "syn" tests/files/1.file tests/files/1.file
+-n "syn" tests/files/2.file
+-n "syn" tests/files/3.file
+-n "syn" tests/files/3.file tests/files/3.file
+-n "syn" tests/files/empty.file
+-n "syn" tests/files/man_grep.file
+-n "syn" tests/files/2.file tests/files/1.file
+-n "syn" tests/files/3.file tests/files/1.file
+-n "syn" tests/files/1.file tests/files/empty.file
+-n "syn" tests/files/man_grep.file tests/files/1.file
+-n "syn" tests/files/3.file tests/files/2.file
+-n "syn" tests/files/2.file tests/files/empty.file
+-n "syn" tests/files/man_grep.file tests/files/2.file
+-n "syn" tests/files/empty.file tests/files/3.file
+-n "syn" tests/files/man_grep.file tests/files/3.file
+-n "syn" tests/files/man_grep.file tests/files/empty.file
+-n "syn" tests/files/2.file tests/files/1.file tests/files/3.file
+-n "syn" tests/files/empty.file tests/files/1.file tests/files/2.file
+-n "syn" tests/files/man_grep.file tests/files/2.file tests/files/1.file
+-n "syn" tests/files/1.file tests/files/empty.file tests/files/3.file
+-n "syn" tests/files/man_grep.file tests/files/1.file tests/files/3.file
+-n "syn" tests/files/empty.file tests/files/1.file tests/files/man_grep.file
+-n "syn" tests/files/3.file tests/files/empty.file tests/files/2.file
+-n "syn" tests/files/man_grep.file tests/files/3.file tests/files/2.file
+-n "syn" tests/files/empty.file tests/files/man_grep.file tests/files/2.file
+-n "syn" tests/files/3.file tests/files/empty.file tests/files/man_grep.file
+-n "syn" tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file
+-n "syn" tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file
+-n "syn" tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file
+-n "syn" tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file
+-n "syn" tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file
+-n "syn" tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file
 -n tests/files/1.file -e "WITH"
 -n tests/files/1.file tests/files/1.file -e "WITH"
 -n tests/files/2.file -e "WITH"
@@ -229,39 +229,39 @@
 -n tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -e "WITH"
 -n tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -e "WITH"
 -n tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -e "WITH"
--n tests/files/1.file -e "output\.$"
--n tests/files/1.file tests/files/1.file -e "output\.$"
--n tests/files/2.file -e "output\.$"
--n tests/files/3.file -e "output\.$"
--n tests/files/3.file tests/files/3.file -e "output\.$"
--n tests/files/empty.file -e "output\.$"
--n tests/files/man_grep.file -e "output\.$"
--n tests/files/2.file tests/files/1.file -e "output\.$"
--n tests/files/3.file tests/files/1.file -e "output\.$"
--n tests/files/1.file tests/files/empty.file -e "output\.$"
--n tests/files/man_grep.file tests/files/1.file -e "output\.$"
--n tests/files/3.file tests/files/2.file -e "output\.$"
--n tests/files/2.file tests/files/empty.file -e "output\.$"
--n tests/files/man_grep.file tests/files/2.file -e "output\.$"
--n tests/files/empty.file tests/files/3.file -e "output\.$"
--n tests/files/man_grep.file tests/files/3.file -e "output\.$"
--n tests/files/man_grep.file tests/files/empty.file -e "output\.$"
--n tests/files/2.file tests/files/1.file tests/files/3.file -e "output\.$"
--n tests/files/empty.file tests/files/1.file tests/files/2.file -e "output\.$"
--n tests/files/man_grep.file tests/files/2.file tests/files/1.file -e "output\.$"
--n tests/files/1.file tests/files/empty.file tests/files/3.file -e "output\.$"
--n tests/files/man_grep.file tests/files/1.file tests/files/3.file -e "output\.$"
--n tests/files/empty.file tests/files/1.file tests/files/man_grep.file -e "output\.$"
--n tests/files/3.file tests/files/empty.file tests/files/2.file -e "output\.$"
--n tests/files/man_grep.file tests/files/3.file tests/files/2.file -e "output\.$"
--n tests/files/empty.file tests/files/man_grep.file tests/files/2.file -e "output\.$"
--n tests/files/3.file tests/files/empty.file tests/files/man_grep.file -e "output\.$"
--n tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -e "output\.$"
--n tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -e "output\.$"
--n tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -e "output\.$"
--n tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -e "output\.$"
--n tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -e "output\.$"
--n tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -e "output\.$"
+-n tests/files/1.file -e "e"
+-n tests/files/1.file tests/files/1.file -e "e"
+-n tests/files/2.file -e "e"
+-n tests/files/3.file -e "e"
+-n tests/files/3.file tests/files/3.file -e "e"
+-n tests/files/empty.file -e "e"
+-n tests/files/man_grep.file -e "e"
+-n tests/files/2.file tests/files/1.file -e "e"
+-n tests/files/3.file tests/files/1.file -e "e"
+-n tests/files/1.file tests/files/empty.file -e "e"
+-n tests/files/man_grep.file tests/files/1.file -e "e"
+-n tests/files/3.file tests/files/2.file -e "e"
+-n tests/files/2.file tests/files/empty.file -e "e"
+-n tests/files/man_grep.file tests/files/2.file -e "e"
+-n tests/files/empty.file tests/files/3.file -e "e"
+-n tests/files/man_grep.file tests/files/3.file -e "e"
+-n tests/files/man_grep.file tests/files/empty.file -e "e"
+-n tests/files/2.file tests/files/1.file tests/files/3.file -e "e"
+-n tests/files/empty.file tests/files/1.file tests/files/2.file -e "e"
+-n tests/files/man_grep.file tests/files/2.file tests/files/1.file -e "e"
+-n tests/files/1.file tests/files/empty.file tests/files/3.file -e "e"
+-n tests/files/man_grep.file tests/files/1.file tests/files/3.file -e "e"
+-n tests/files/empty.file tests/files/1.file tests/files/man_grep.file -e "e"
+-n tests/files/3.file tests/files/empty.file tests/files/2.file -e "e"
+-n tests/files/man_grep.file tests/files/3.file tests/files/2.file -e "e"
+-n tests/files/empty.file tests/files/man_grep.file tests/files/2.file -e "e"
+-n tests/files/3.file tests/files/empty.file tests/files/man_grep.file -e "e"
+-n tests/files/1.file tests/files/empty.file tests/files/2.file tests/files/3.file -e "e"
+-n tests/files/2.file tests/files/3.file tests/files/man_grep.file tests/files/1.file -e "e"
+-n tests/files/2.file tests/files/empty.file tests/files/man_grep.file tests/files/1.file -e "e"
+-n tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_grep.file -e "e"
+-n tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -e "e"
+-n tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -e "e"
 -n tests/files/1.file -e "-[a-z][a-z]"
 -n tests/files/1.file tests/files/1.file -e "-[a-z][a-z]"
 -n tests/files/2.file -e "-[a-z][a-z]"
