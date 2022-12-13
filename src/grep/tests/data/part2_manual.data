@@ -39,7 +39,7 @@ ab tests/files/1.file tests/files/1.file tests/files/1.file tests/files
 "[a-z][a-z]" tests/files/1.file tests/files/gggg.file
 "[a-z][a-z]" tests/files/gggg.file
 "\-[a-z]\{1\}[^a-z]" tests/files/1.file tests/files/1.file
-tests/files/3.file -e "-[a-z][a-z]" -e "-[a-z][A-Z]" -e "-[a-z]\{2\}"
+tests/files/3.file -e "-ve" -e "-[a-z][A-Z]" -e "-[a-z]\{2\}"
 tests/files/1.file -e "-[A-Z]" -e "-[a-z]\{2\}" -e "[0-9]\{2\}"
 tests/files/1.file -e "-[A-Z]"
 tests/files/1.file -e "-[a-z]\{2\}"

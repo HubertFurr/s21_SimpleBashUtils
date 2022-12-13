@@ -38,3 +38,4 @@ tests/files/1.file tests/files/1.file -f tests/patterns/4.ptrn -f tests/patterns
 67144 tests/files/big.file -o
 35436378  tests/files/big.file -o
 "^$" tests/files/big.file -o
+2 tests/files/big.file -o

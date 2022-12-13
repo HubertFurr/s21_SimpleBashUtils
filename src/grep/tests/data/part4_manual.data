@@ -14,3 +14,4 @@ tests/files/1.file -e ""
 -e "^$" tests/files/big.file -o -e "12345"
 -e "^$" tests/files/big.file -o -e "12345" -e "^$"
 -e "^$" tests/files/big.file -o -e "12345" -e "^$" -e "^$"
+2 tests/files/big.file -oc
