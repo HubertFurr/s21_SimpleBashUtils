@@ -494,5 +494,10 @@ tests/files/1.file tests/files/empty.file tests/files/3.file tests/files/man_gre
 tests/files/3.file tests/files/2.file tests/files/man_grep.file tests/files/empty.file -e "-[a-z][A-Z]" -e "-[a-z][a-z]" -e "[0-9]\{2\}"
 tests/files/3.file tests/files/2.file tests/files/1.file tests/files/empty.file tests/files/man_grep.file -e "-[a-z][A-Z]" -e "-[a-z][a-z]" -e "[0-9]\{2\}"
 "|" tests/files/man_grep.file
+"|a|" tests/files/man_grep.file
+"|//" tests/files/man_grep.file
+"|\\" tests/files/man_grep.file
+"\\" tests/files/man_grep.file
+"//" tests/files/man_grep.file
 "|" tests/files/2.file
 2 tests/files/big.file
