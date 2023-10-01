@@ -84,6 +84,7 @@ test_hard: s21_cat s21_catf s21_catv
 re: clean all
 clean:
 	rm -rf $(ODIR)*.o
+	rm -rf *.res
 	rm -rf ./s21_cat ./s21_catf ./s21_catv
 
 cpplint:

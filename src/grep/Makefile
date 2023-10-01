@@ -92,6 +92,7 @@ test_part4: s21_grep
 re: clean all
 clean:
 	rm -rf $(ODIR)*.o
+	rm -rf *.res
 	rm -rf ./s21_grep ./s21_grepf ./s21_grepv
 
 cpplint:
